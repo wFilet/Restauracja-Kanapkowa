@@ -1,0 +1,333 @@
+{
+    "produkty": {
+        "typy": [
+            {
+                "nazwa": "Bułka",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Chleb",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Rogal",
+                "dostepny": false
+            }
+        ],
+        "bulki": [
+            {
+                "nazwa": "Ziarnella",
+                "dostepny": false
+            },
+            {
+                "nazwa": "Pszenna",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Kajzerka",
+                "dostepny": false
+            },
+            {
+                "nazwa": "Dyniowa",
+                "dostepny": false
+            },
+            {
+                "nazwa": "Ze skyrem",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Ziemniaczana",
+                "dostepny": false
+            }
+        ],
+        "chleby": [
+            {
+                "nazwa": "Staropolski",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Zwykły",
+                "dostepny": false
+            },
+            {
+                "nazwa": "Żytni razowy",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Cebulowy",
+                "dostepny": false
+            }
+        ],
+        "rogale": [
+            {
+                "nazwa": "Z makiem",
+                "dostepny": false
+            },
+            {
+                "nazwa": "Zwykły",
+                "dostepny": false
+            }
+        ],
+        "skladniki": [
+            {
+                "nazwa": "Szynka",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Ser",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Twaróg",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Pasztet",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Sałata",
+                "dostepny": true
+            }
+        ],
+        "warzywa": [
+            {
+                "nazwa": "Pomidor",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Rzodkiewka",
+                "dostepny": false
+            },
+            {
+                "nazwa": "Ogórek kiszony",
+                "dostepny": false
+            },
+            {
+                "nazwa": "Papryka",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Ogórek zielony",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Ogórek konserwowy",
+                "dostepny": true
+            }
+        ],
+        "napoje": [
+            {
+                "nazwa": "Sok jabłkowy",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Sok pomarańczowy",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Sok wieloowocowy",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Herbata",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Woda",
+                "dostepny": true
+            },
+            {
+                "nazwa": "2 espresso",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Doppio+",
+                "dostepny": true
+            }
+        ],
+        "miejsca_dostawy": [
+            {
+                "nazwa": "Odbiór osobisty",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Duży pokój",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Pokój Julii",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Pokój Witka",
+                "dostepny": true
+            },
+            {
+                "nazwa": "Łazienka",
+                "dostepny": true
+            }
+        ]
+    },
+    "gotowe_kanapki": [
+        {
+            "id": "KAN-QLC6DR5V",
+            "nazwa": "Łąka",
+            "typ": "Bułka",
+            "pieczywo": "Ziemniaczana",
+            "skladniki": [
+                "Szynka",
+                "Sałata"
+            ],
+            "warzywa": [
+                "Ogórek",
+                "Rzodkiewka"
+            ],
+            "napoje": [
+                "Sok jabłkowy"
+            ]
+        },
+        {
+            "id": "KAN-6X4UG61Y",
+            "nazwa": "Kanapka zdrapka",
+            "typ": "Bułka",
+            "pieczywo": "Pszenna",
+            "skladniki": [
+                "Szynka",
+                "Ser",
+                "Sałata"
+            ],
+            "warzywa": [
+                "Pomidor"
+            ],
+            "napoje": [
+                "Woda"
+            ]
+        }
+    ],
+    "historia_zamowien": [
+        {
+            "id": "ZAM-JRPLH7",
+            "numer": 8,
+            "czas": "22.08.2026 21:13:28",
+            "typ": "Chleb",
+            "pieczywo": "Staropolski",
+            "skladniki": [
+                "Twaróg"
+            ],
+            "warzywa": [],
+            "napoje": [
+                "Sok pomarańczowy"
+            ],
+            "miejsce_dostawy": "Pokój Witka"
+        },
+        {
+            "id": "ZAM-LNY6SU",
+            "numer": 7,
+            "czas": "22.08.2026 16:09:24",
+            "typ": "Bułka",
+            "pieczywo": "Pszenna",
+            "skladniki": [
+                "Twaróg"
+            ],
+            "warzywa": [
+                "Ogórek zielony"
+            ],
+            "napoje": []
+        },
+        {
+            "id": "ZAM-Y7PQDV",
+            "numer": 6,
+            "czas": "22.08.2026 14:09:37",
+            "typ": "Bułka",
+            "pieczywo": "Pszenna",
+            "skladniki": [
+                "Ser"
+            ],
+            "warzywa": [
+                "Ogórek zielony"
+            ],
+            "napoje": [
+                "2 espresso"
+            ]
+        },
+        {
+            "id": "ZAM-LJ07G0",
+            "numer": 5,
+            "czas": "22.08.2026 10:46:40",
+            "typ": "Chleb",
+            "pieczywo": "Staropolski",
+            "skladniki": [
+                "Szynka"
+            ],
+            "warzywa": [
+                "Ogórek konserwowy"
+            ],
+            "napoje": [
+                "2 espresso"
+            ]
+        },
+        {
+            "id": "ZAM-KL52YW",
+            "numer": 4,
+            "czas": "21.08.2026 17:36:43",
+            "typ": "Bułka",
+            "pieczywo": "Pszenna",
+            "skladniki": [
+                "Ser",
+                "Szynka",
+                "Sałata"
+            ],
+            "warzywa": [
+                "Pomidor"
+            ],
+            "napoje": [
+                "Woda"
+            ]
+        },
+        {
+            "id": "ZAM-AC4NMU",
+            "numer": 3,
+            "czas": "21.08.2026 17:28:53",
+            "typ": "Bułka",
+            "pieczywo": "Ze skyrem",
+            "skladniki": [
+                "Ser"
+            ],
+            "warzywa": [
+                "Rzodkiewka",
+                "Pomidor"
+            ],
+            "napoje": [
+                "Herbata"
+            ]
+        },
+        {
+            "numer": 2,
+            "czas": "21.08.2026 17:25:22",
+            "typ": "Chleb",
+            "pieczywo": "Żytni razowy",
+            "skladniki": [
+                "Ser"
+            ],
+            "warzywa": [
+                "Rzodkiewka"
+            ],
+            "napoje": [
+                "Sok wieloowocowy"
+            ]
+        },
+        {
+            "numer": 1,
+            "czas": "21.08.2026 17:22:58",
+            "typ": "Bułka",
+            "pieczywo": "Ziemniaczana",
+            "skladniki": [
+                "Twaróg"
+            ],
+            "warzywa": [],
+            "napoje": []
+        }
+    ],
+    "numer_zamowienia": 9
+}
